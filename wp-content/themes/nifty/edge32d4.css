@@ -1,0 +1,20 @@
+/* Edge */
+@supports (-ms-ime-align: auto) {
+	.bt_bb_latest_posts .bt_bb_latest_posts_item.bt_bb_latest_posts_item_odd .bt_bb_latest_posts_item_content {
+		background: linear-gradient(to top, #262626 0%, transparent 80%);
+	}
+
+	.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_shape_rounded {
+		background: white;
+	}
+
+}
+
+/* Safari */
+@media not all and (min-resolution:.001dpcm) {
+	@media {
+		select, .fancy-select .trigger, .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText, input[type='submit'] {
+			line-height: 1.2em !important;
+		}
+	}
+}
